@@ -4,3 +4,15 @@ Of course there are some you
 might use more often like useState and useEffect,
  but understanding the other ones like useMemo,
  useCallback or useRef is also essential.
+
+what is "state"?
+ups and downs of class and functional components
+what are component re-renderings and how do they work?
+how to trigger re-renderings
+different component lifecycles and how to interact with them
+Virtual DOM
+Benefits of CSR (Client Side Rendering) and SSR (Server Side Rendering) in general and in React
+Controlled vs. Uncontrolled Components
+State Lifting
+at least one global state management technology (Context API, Redux/Toolkit, Recoil)
+Component Patterns (especially how to choose the right pattern)
