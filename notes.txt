@@ -16,3 +16,18 @@ Controlled vs. Uncontrolled Components
 State Lifting
 at least one global state management technology (Context API, Redux/Toolkit, Recoil)
 Component Patterns (especially how to choose the right pattern)
+
+const SeasonScores = ({ seasonScoresData }) => {
+	
+    return (
+    	<>
+        	<h3>Our scores in this season:<h3>
+        	{seasonScoresData.map((score, index) => (
+    			<div key={index}>
+        			<p>{score.oponennt}</p>
+        			<p>{score.value}</p>
+        		</div>
+    		))}
+        </>
+    )
+}
