@@ -1,1 +1,6 @@
 This is my notes
+
+Of course there are some you 
+might use more often like useState and useEffect,
+ but understanding the other ones like useMemo,
+ useCallback or useRef is also essential.
